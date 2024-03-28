@@ -8,25 +8,58 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-<header>
+
 <h1>3D Printing from Minecraft</h1>
-</header>
+<br>
+<nav class="navbar navbar-expand-sm bg-light"> 
+ <div class="container-fluid">
+ <ul class="navbar-nav">
+  <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
+  <li class="nav-item"><a class="nav-link" href="portfolioglitchart.html">Glitch Art</a>
+  <li class="nav-item"><a class="nav-link" href="mememashup.html">Meme Mashup</a>
+  <li class="nav-item"><a class="nav-link" href="netartwebpage.html">Net Art</a>
+</ul>
+</div>
+</nav>
 <section>
 <img src="minecraftscreenshot1.png" alt="Minecraft screenshot 1" width="550">
 <p>The first step of this project was creating a 3D model in Minecraft. I built something (The Tech Museum of Innovation in downtown San Jose) out of Minecraft blocks and then I save the world and export it into a program called Mineways. After that I select my build in Mineways and export the data into another program called Flashpoint. I create the 3D model from Minecraft in Flashpoint, then export it into a file format that is meant for 3D printers to utilize so they can print. </p>
 </section>
-<section>
-<img src="minitechmuseumprint.jpg" alt="Tech Museum print 1" width="450">
-<img src="minitechmuseumprint2.jpg" alt="Tech Museum print 2" width="450">
-<img src="minitechmuseumpaintedprint1.jpg" alt="Painted Tech Museum" width="450">
-<p>This is a picture of my 3D prints. The left piece took twelve minutes to print out. The right took forty-two minutes to complete. The second print was a slightly more detailed version of the first build. I scaled it so that each block would equal about two millimeters in length, width and height. The third picture is after I had finished detailing it by sanding off some of the excess plastic and painting it. I mixed the primary colors to get the right shade of blue and orange that match the proper colors of the real building. I chose to recreate the Tech Museum because it is a place that I have been going to since I was a child and I wanted to preserve it in case I ever leave San Jose. This project was very meaningful for me to do because it tied together multiple special interests of mine (painting, Minecraft and a place from my childhood) which is why I put in a lot of effort for this project.</p>
-</section>
 
-<nav> 
- <ul>
-  <li><a href="index.html">Home</a>
-  <li><a href="portfolioglitcharthtml">Glitch Art</a>
-  <li>
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+<div>
+<!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="minitechmuseumprint.jpg" alt="Mini Tech Museum 1" class="d-block" width="450" height="450">
+    </div>
+    <div class="carousel-item">
+      <img src="minitechmuseumprint2.jpg" alt="Mini Tech Museum 2" class="d-block" width="450" height="450">
+    </div>
+    <div class="carousel-item">
+      <img src="minitechmuseumpaintedprint1.jpg" alt="Mini Painted Tech Museum" class="d-block" width="450" height="450">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<p>This is a picture of my 3D prints. The first piece took twelve minutes to print out. The second, larger one took forty-two minutes to complete. The second print was a slightly more detailed version of the first build. I scaled both builds so that each block would equal about two millimeters in length, width and height. The third picture is after I had finished detailing the second print by sanding off some of the excess plastic and painting it. I mixed the primary colors of paint to get the right shade of blue and orange that match the colors of the real building it was based on. I chose to recreate the Tech Museum because it is a place that I have been going to since I was a child and I wanted to preserve it in case I ever leave San Jose. This project was very meaningful for me to do because it tied together multiple special interests of mine (painting, Minecraft and a place from my childhood) which is why I put in a lot of effort for this project.</p>
+
+
 
 </body>
 </html>
